@@ -3,6 +3,8 @@ cd models_and_data
 git pull
 cd ..
 
+cd ml_training
+
 KEY=$(jq .preprocess_data config.json)
 
 if [ $KEY = '"True"' ]; then
