@@ -38,7 +38,7 @@ RUN cat github-key-temp >> ~/.ssh/known_hosts
 #RUN ssh -T git@github.com
 
 #Clone repos
-RUN git clone git@github.com:dlaredo/ml_training.git
-RUN git clone git@github.com:dlaredo/models_and_data.git
+RUN git clone git@github.com:dlaredorazo/ml_training.git
+RUN git clone git@github.com:dlaredorazo/models_and_data.git
 
 #RUN python3 /app/train.py

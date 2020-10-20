@@ -2,8 +2,6 @@
 cd models_and_data
 git pull
 cd ..
-cd web_app
-git pull
 
 KEY=$(jq .preprocess_data config.json)
 
